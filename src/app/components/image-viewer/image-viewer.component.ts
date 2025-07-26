@@ -1,6 +1,6 @@
 import { Component, OnDestroy } from '@angular/core';
 import { ImageSelectService } from '../../services/image-select.service';
-import { distinctUntilChanged, finalize, Observable, of, switchMap } from 'rxjs';
+import { distinctUntilChanged, Observable, of, switchMap } from 'rxjs';
 import { AsyncPipe } from '@angular/common';
 
 @Component({

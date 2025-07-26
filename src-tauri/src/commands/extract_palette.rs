@@ -40,8 +40,8 @@ fn extract_palette_impl(file_path: String, max_colors: usize) -> Result<Vec<Stri
 
     let mut sorted_centroids = centroids.clone();
     sorted_centroids.sort_by(|a, b| {
-        let hsl_a = palette::Hsl::from_color(*a);
-        let hsl_b = palette::Hsl::from_color(*b);
+        let hsl_a = Hsl::from_color(*a);
+        let hsl_b = Hsl::from_color(*b);
 
         hsl_a
             .hue
