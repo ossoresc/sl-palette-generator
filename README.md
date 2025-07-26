@@ -19,6 +19,7 @@ Tests
 - Structured metadata
 - Tauri app update + migration
 - App icons and meta info
+- Additional features like palette styles and sorting
 
 (This is also kinda like a todo list for future updates)
 

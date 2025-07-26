@@ -27,6 +27,7 @@ import { MatButtonModule } from '@angular/material/button';
                 <li>Structured metadata</li>
                 <li>Tauri app update + migration</li>
                 <li>App icons and meta info</li>
+                <li>Additional features like palette styles and sorting</li>
             </ul>
             <p>(This is also kinda like a todo list for future updates)</p>
 
