@@ -1,0 +1,31 @@
+@use "@angular/material" as mat;
+
+$sl-pg-theme: mat.define-theme((
+    color: (
+        theme-type: light,
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette
+    ),
+));
+
+:root {
+    @include mat.all-component-themes($sl-pg-theme);
+
+    mat-toolbar {
+        background: mat.get-theme-color($sl-pg-theme, primary-container);
+    }
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
