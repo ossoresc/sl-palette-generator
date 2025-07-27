@@ -8,7 +8,7 @@ how to build a Tauri app with installer.
 
 There are a lot of things missing:
 
-Tests
+- Tests
 - State management (e.g. with ngrx)
 - Persistence level (e.g. sqlite)
 - Angular 20 tech like signals, inject(), ...
